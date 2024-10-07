@@ -1,15 +1,15 @@
-# vanilla-app
+# using-web-worker
 
-To install dependencies:
+Mini project for learniing how to use Web Worker
 
-```bash
-bun install
-```
+## index.html
 
-To run:
+![image](https://github.com/user-attachments/assets/f28daf46-9519-4e1d-8701-c26eadee6cda)
 
-```bash
-bun run index.ts
-```
+## app.js
 
-This project was created using `bun init` in bun v1.1.29. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+![image](https://github.com/user-attachments/assets/71966eba-1ed6-4a5b-87dd-9afc69610bd4)
+
+## worker.js
+
+![image](https://github.com/user-attachments/assets/2fe21a67-83ae-4a6a-8005-925bbbda1214)
