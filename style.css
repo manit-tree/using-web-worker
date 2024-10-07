@@ -1,0 +1,51 @@
+@layer reset {
+    * {
+        margin: 0;
+        padding: 0
+    }
+
+    html, body {
+        height: 100%;
+    }
+
+    a {
+        text-decoration: none;
+        color: var(--text-color);
+
+        &:hover {
+            color: var(--primary);
+        }
+    }
+}
+
+@layer base-color {
+    :root {
+        --bg-color: #121212;
+        --text-color: #ccc;
+        --primary: #F5405B; 
+    }
+}
+
+@layer utilities {
+    .flex-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 1em;
+    }
+}
+
+body {
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    position: relative;
+}
+
+#app {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    inset: 0;
+    display: grid;
+    place-content: center;
+}

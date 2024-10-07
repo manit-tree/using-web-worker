@@ -1,0 +1,14 @@
+{
+  "name": "vanilla",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "live-server"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
